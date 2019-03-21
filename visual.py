@@ -2,8 +2,6 @@ import numpy as np
 import torch
 import torchvision
 
-tame_path = "/home/tkrasnoperov/acid/app/src/img/{}.jpg"
-
 class Visual():
     def __init__(self, model):
         self.model = model

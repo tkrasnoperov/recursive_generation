@@ -11,8 +11,6 @@ import torch.utils.model_zoo as model_zoo
 import torchvision.transforms.functional as tf
 from scipy.sparse import lil_matrix
 
-tame_path = "/home/tkrasnoperov/acid/app/src/img/{}.jpg"
-
 def load_jpg(filename):
     return tf.to_tensor(image.open(filename)).unsqueeze(dim=0)
 
